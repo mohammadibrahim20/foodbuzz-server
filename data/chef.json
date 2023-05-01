@@ -1,0 +1,83 @@
+[
+  {
+    "chefName": "Jamie Oliver",
+    "yearsOfExperience": 25,
+    "numberOfRecipes": 200,
+    "likes": 1000,
+    "bio": "Jamie Oliver is a celebrity chef and restaurateur known for his focus on healthy and organic cooking.",
+    "id": 1,
+    "rating": 4.5,
+    "name": "Grilled Chicken and Avocado Salad",
+    "ingredients": [
+      "chicken breast",
+      "avocado",
+      "lettuce",
+      "tomatoes",
+      "olive oil"
+    ],
+    "cookingMethod": "grilling",
+    "recipeName": "Grilled Chicken and Avocado Salad",
+    "chefPicture": "https://www.jamieoliver.com/assets/Jamie-oliver-image.jpg"
+  },
+  {
+    "chefName": "Gordon Ramsay",
+    "yearsOfExperience": 30,
+    "numberOfRecipes": 300,
+    "likes": 1500,
+    "bio": "Gordon Ramsay is a British chef, restaurateur, and television personality known for his fiery personality and high culinary standards.",
+    "id": 2,
+    "rating": 4.8,
+    "name": "Beef Wellington",
+    "ingredients": [
+      "beef fillet",
+      "mushrooms",
+      "puff pastry",
+      "parma ham",
+      "egg"
+    ],
+    "cookingMethod": "baking",
+    "recipeName": "Beef Wellington",
+    "chefPicture": "https://www.gordonramsay.com/assets/Gordon-ramsay-image.jpg"
+  },
+  {
+    "chefName": "Nigella Lawson",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 150,
+    "likes": 800,
+    "bio": "Nigella Lawson is a British food writer and television personality known for her approachable and indulgent cooking style.",
+    "id": 3,
+    "rating": 4.2,
+    "name": "Chocolate Fudge Cake",
+    "ingredients": [
+      "butter",
+      "dark chocolate",
+      "caster sugar",
+      "eggs",
+      "plain flour"
+    ],
+    "cookingMethod": "baking",
+    "recipeName": "Chocolate Fudge Cake",
+    "chefPicture": "https://www.nigella.com/assets/Nigella-lawson-image.jpg"
+  },
+  {
+    "chefName": "Bobby Flay",
+    "yearsOfExperience": 25,
+    "numberOfRecipes": 250,
+    "likes": 1200,
+    "viewRecipesButton": "https://www.bobbyflay.com/recipes/",
+    "bio": "Bobby Flay is an American celebrity chef and restaurateur known for his bold flavors and Southwestern-style cuisine.",
+    "id": 4,
+    "rating": 4.6,
+    "name": "Grilled Steak with Chimichurri Sauce",
+    "ingredients": [
+      "ribeye steak",
+      "parsley",
+      "garlic",
+      "red wine vinegar",
+      "olive oil"
+    ],
+    "cookingMethod": "grilling",
+    "recipeName": "Grilled Steak with Chimichurri Sauce",
+    "chefPicture": "https://www.bobbyflay.com/assets/Bobby-flay-image.jpg"
+  }
+]
