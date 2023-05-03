@@ -57,8 +57,8 @@
   },
   {
     "id": 2,
-    "bg_thumbnail": "https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?w=1060&t=st=1683028357~exp=1683028957~hmac=f2318e5467c185802048eae1b55007f5246e4371a19b543306f82eab4a416e40",
-    "chef_picture": "https://example.com/chef2_picture.jpg",
+    "bg_thumbnail": "https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=1380&t=st=1683089058~exp=1683089658~hmac=b3990ffa833bcd04dc770604172de7fcb7cb36da9bd8cf4c2451245184517f2f",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2017/01/Chef-Amit-Sood-famous-top-10-chefs-in-Bangalore.jpg",
     "chef_name": "Chef Jane Smith",
     "years_of_experience": 10,
     "number_of_recipes": 75,
@@ -67,6 +67,7 @@
     "recipes": [
       {
         "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/xwutvy1511555540.jpg",
         "ingredients": [
           "2 boneless, skinless chicken breasts, cut into small pieces",
           "2 tablespoons soy sauce",
@@ -80,6 +81,7 @@
       },
       {
         "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
         "ingredients": [
           "1 block firm tofu, cut into small cubes",
           "1 tablespoon Sichuan peppercorns",
@@ -93,6 +95,7 @@
       },
       {
         "recipe_name": "Ching Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg",
         "ingredients": [
           "1 teaspoon sesame oil",
           "1/2 teaspoon ground Sichuan peppercorns",
@@ -110,7 +113,7 @@
   {
     "id": 3,
     "bg_thumbnail": "https://img.freepik.com/free-photo/spicy-fried-tubtim-fish-salad-spicy-thai-food_1150-26481.jpg?w=1060&t=st=1683028407~exp=1683029007~hmac=2dcc76ba05e2e30594ee6f4378055e9d7f9e7362a50888f37a295b66c1af0a46",
-    "chef_picture": "https://example.com/chef3_picture.jpg",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2017/01/Vineet-Bhatia-top-celebrity-chefs-in-Bangalore-681x1024.jpg",
     "chef_name": "Chef David Lee",
     "years_of_experience": 20,
     "number_of_recipes": 150,
@@ -164,8 +167,8 @@
   },
   {
     "id": 4,
-    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
-    "chef_picture": "https://example.com/chef4_picture.jpg",
+    "bg_thumbnail": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?w=1380&t=st=1683089191~exp=1683089791~hmac=30905bb31eda964cd52457938d40f6750456bca6eb1101693066d982f20537d5",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2017/01/Bhuvan-Ravishankar-top-chefs-in-Bangalore.jpg",
     "chef_name": "Chef Samantha Johnson",
     "years_of_experience": 8,
     "number_of_recipes": 50,
@@ -219,8 +222,8 @@
   },
   {
     "id": 5,
-    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
-    "chef_picture": "https://example.com/chef5_picture.jpg",
+    "bg_thumbnail": "https://img.freepik.com/free-photo/grilled-chicken-legs-barbecue-sauce-with-pepper-seeds-parsley-salt-black-stone-plate-black-stone-table_1150-37858.jpg?w=1380&t=st=1683089230~exp=1683089830~hmac=28993ec61eb8d5dd3c035255481b59456d53f7c57b1a511f521cc371b7a4ec58",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/Ken-Hom-top-10-chefs-in-china-768x530.jpg",
     "chef_name": "Chef Michael Nguyen",
     "years_of_experience": 12,
     "number_of_recipes": 90,
@@ -275,8 +278,8 @@
   },
   {
     "id": 6,
-    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
-    "chef_picture": "https://example.com/chef6_picture.jpg",
+    "bg_thumbnail": "https://img.freepik.com/free-photo/high-angle-baking-delicious-pizza_23-2150235802.jpg?w=1380&t=st=1683089346~exp=1683089946~hmac=b0ca3f5b9303f1d1e92c43b39cacfb73b1336905c6d095c204a52f4bd3b52df8",
+    "chef_picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2017/01/Sanjeev-Kapoor-top-10-chefs-in-Bangalore-618x1024.jpg",
     "chef_name": "Chef Rachel Lee",
     "years_of_experience": 5,
     "number_of_recipes": 30,
