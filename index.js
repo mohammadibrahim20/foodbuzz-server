@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 app.get("/chines", (req, res) => {
   res.send(chinesFood);
 });
+app.get("/test", (req, res) => {
+  res.send({test: "Server side successfully run"});
+});
 
 app.get("/chef/:id", (req, res) => {
   const _id = req.params.id
