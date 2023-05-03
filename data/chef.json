@@ -1,83 +1,331 @@
 [
   {
-    "chefName": "Jamie Oliver",
-    "yearsOfExperience": 25,
-    "numberOfRecipes": 200,
-    "likes": 1000,
-    "bio": "Jamie Oliver is a celebrity chef and restaurateur known for his focus on healthy and organic cooking.",
     "id": 1,
-    "rating": 4.5,
-    "name": "Grilled Chicken and Avocado Salad",
-    "ingredients": [
-      "chicken breast",
-      "avocado",
-      "lettuce",
-      "tomatoes",
-      "olive oil"
-    ],
-    "cookingMethod": "grilling",
-    "recipeName": "Grilled Chicken and Avocado Salad",
-    "chefPicture": "https://www.jamieoliver.com/assets/Jamie-oliver-image.jpg"
+    "bg_thumbnail": "https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?w=1060&t=st=1683028278~exp=1683028878~hmac=ed59e971cec8e8c38fe74a53d5023b45830205806a8ef081285cd4a15dc3d438",
+    "chef_picture": "https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "chef_name": "Chef John Doe",
+    "years_of_experience": 15,
+    "number_of_recipes": 100,
+    "likes": 5000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg",
+
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/1c5oso1614347493.jpg",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
   },
   {
-    "chefName": "Gordon Ramsay",
-    "yearsOfExperience": 30,
-    "numberOfRecipes": 300,
-    "likes": 1500,
-    "bio": "Gordon Ramsay is a British chef, restaurateur, and television personality known for his fiery personality and high culinary standards.",
     "id": 2,
-    "rating": 4.8,
-    "name": "Beef Wellington",
-    "ingredients": [
-      "beef fillet",
-      "mushrooms",
-      "puff pastry",
-      "parma ham",
-      "egg"
-    ],
-    "cookingMethod": "baking",
-    "recipeName": "Beef Wellington",
-    "chefPicture": "https://www.gordonramsay.com/assets/Gordon-ramsay-image.jpg"
+    "bg_thumbnail": "https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?w=1060&t=st=1683028357~exp=1683028957~hmac=f2318e5467c185802048eae1b55007f5246e4371a19b543306f82eab4a416e40",
+    "chef_picture": "https://example.com/chef2_picture.jpg",
+    "chef_name": "Chef Jane Smith",
+    "years_of_experience": 10,
+    "number_of_recipes": 75,
+    "likes": 3000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
   },
   {
-    "chefName": "Nigella Lawson",
-    "yearsOfExperience": 20,
-    "numberOfRecipes": 150,
-    "likes": 800,
-    "bio": "Nigella Lawson is a British food writer and television personality known for her approachable and indulgent cooking style.",
     "id": 3,
-    "rating": 4.2,
-    "name": "Chocolate Fudge Cake",
-    "ingredients": [
-      "butter",
-      "dark chocolate",
-      "caster sugar",
-      "eggs",
-      "plain flour"
-    ],
-    "cookingMethod": "baking",
-    "recipeName": "Chocolate Fudge Cake",
-    "chefPicture": "https://www.nigella.com/assets/Nigella-lawson-image.jpg"
+    "bg_thumbnail": "https://img.freepik.com/free-photo/spicy-fried-tubtim-fish-salad-spicy-thai-food_1150-26481.jpg?w=1060&t=st=1683028407~exp=1683029007~hmac=2dcc76ba05e2e30594ee6f4378055e9d7f9e7362a50888f37a295b66c1af0a46",
+    "chef_picture": "https://example.com/chef3_picture.jpg",
+    "chef_name": "Chef David Lee",
+    "years_of_experience": 20,
+    "number_of_recipes": 150,
+    "likes": 8000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "strYoutube": "https://www.youtube.com/watch?v=e-2K2iyPASA",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
   },
   {
-    "chefName": "Bobby Flay",
-    "yearsOfExperience": 25,
-    "numberOfRecipes": 250,
-    "likes": 1200,
-    "viewRecipesButton": "https://www.bobbyflay.com/recipes/",
-    "bio": "Bobby Flay is an American celebrity chef and restaurateur known for his bold flavors and Southwestern-style cuisine.",
     "id": 4,
-    "rating": 4.6,
-    "name": "Grilled Steak with Chimichurri Sauce",
-    "ingredients": [
-      "ribeye steak",
-      "parsley",
-      "garlic",
-      "red wine vinegar",
-      "olive oil"
-    ],
-    "cookingMethod": "grilling",
-    "recipeName": "Grilled Steak with Chimichurri Sauce",
-    "chefPicture": "https://www.bobbyflay.com/assets/Bobby-flay-image.jpg"
+    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
+    "chef_picture": "https://example.com/chef4_picture.jpg",
+    "chef_name": "Chef Samantha Johnson",
+    "years_of_experience": 8,
+    "number_of_recipes": 50,
+    "likes": 2000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/ryspuw1511786688.jpg",
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/c9a3l31593261890.jpg",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
+    "chef_picture": "https://example.com/chef5_picture.jpg",
+    "chef_name": "Chef Michael Nguyen",
+    "years_of_experience": 12,
+    "number_of_recipes": 90,
+    "likes": 4000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/1550442508.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "strYoutube": "https://www.youtube.com/watch?v=Tp_PMWvIKzo",
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/rqvwxt1511384809.jpg",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "bg_thumbnail": "https://example.com/chef1_picture.jpg",
+    "chef_picture": "https://example.com/chef6_picture.jpg",
+    "chef_name": "Chef Rachel Lee",
+    "years_of_experience": 5,
+    "number_of_recipes": 30,
+    "likes": 1000,
+    "bio": "Chef John has been cooking traditional Chinese dishes for over 20 years. He specializes in Sichuan cuisine and loves to incorporate bold and spicy flavors in his dishes.",
+    "recipes": [
+      {
+        "recipe_name": "Kung Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/t8mn9g1560460231.jpg",
+        "ingredients": [
+          "2 boneless, skinless chicken breasts, cut into small pieces",
+          "2 tablespoons soy sauce",
+          "1 tablespoon cornstarch",
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Mapo Tofu",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+        "ingredients": [
+          "1 block firm tofu, cut into small cubes",
+          "1 tablespoon Sichuan peppercorns",
+          "1/2 pound ground pork",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced"
+        ],
+        "cooking_method": "In a small dry pan, toast Sichuan peppercorns over medium heat until fragrant, about 2-3 minutes. Grind in a spice grinder or mortar and pestle. In a large skillet or wok, heat vegetable oil over high heat. Add ground pork and stir-fry until browned and cooked through. Add garlic, ginger, doubanjiang, and fermented black beans and stir-fry for 1-2 minutes. Add tofu and chicken broth and bring to a simmer. Stir in cornstarch mixture and simmer for an additional 1-2 minutes, until sauce thickens. Sprinkle with chopped scallions and serve over rice.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ching Pao Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
+        "ingredients": [
+          "1 teaspoon sesame oil",
+          "1/2 teaspoon ground Sichuan peppercorns",
+          "1/2 cup peanuts",
+          "2 tablespoons vegetable oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon fresh ginger, minced",
+          "3-4 dried red chilies"
+        ],
+        "cooking_method": "In a small bowl, mix together soy sauce, cornstarch, and sesame oil. In a large skillet or wok, heat vegetable oil over high heat. Add chicken and stir-fry until browned and cooked through. Remove chicken from pan and set aside. Add garlic, ginger, and dried chilies to the pan and stir-fry for 1-2 minutes. Add chicken back to the pan and stir in soy sauce mixture. Stir-fry for an additional 1-2 minutes, until sauce thickens. Stir in peanuts and serve over rice.",
+        "rating": 4.8
+      }
+    ]
   }
 ]

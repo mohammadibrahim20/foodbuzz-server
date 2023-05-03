@@ -10,6 +10,11 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send(chefData);
 });
+app.get("/chef/:id", (req, res) => {
+  const _id = req.params.id
+  const singleData = chefData.find(d=> d.id == _id)
+  res.send(singleData);
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
